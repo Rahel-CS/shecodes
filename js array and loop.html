@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>she codes js array and loop challenge</title>
+  </head>
+  <style>
+    h1 {
+      text-align: center;
+      color: red;
+    }
+  </style>
+  <body>
+    <h1>java script array and loop challenge</h1>
+    <script>
+      let weeks = [
+        "Monday",
+        "Tuesday",
+        "wednesday",
+        "Thurday",
+        "Saturday",
+        "Sunday",
+      ]; // Challenge 1
+      console.log(weeks);
+      // Create an array weekDays with all days of the week, console log the array
+
+      // Challenge 2
+      // Log ‘Monday’ and ‘Sunday’
+      console.log = weeks[0];
+      console.log = weeks[6];
+      // Challenge 3
+      // Change ‘Sunday’ by ‘Funday’
+      // Log the array
+      weeks[6] = "Funday";
+      console.log(weeks);
+      // Challenge 4
+      // Remove Monday and Tuesday
+      // Log the array
+      weeks.shift();
+      weeks.shift();
+      console.log(weeks);
+      // Challenge 5
+      // Log every day of the week this way:`Temperature on Monday is 18 degrees’
+      function showDay(day) {
+        console.log(`Temperature on ${day} is 18 degrees`);
+      }
+      weekDays.forEach(showDay);
+    </script>
+  </body>
+</html>
