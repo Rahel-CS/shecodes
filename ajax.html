@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <title>Api</title>
+
+  </head>
+  <body></body>
+  <script>
+  //   function displayUsername(response) {
+  //     console.log(response.data);
+  //   }
+  //   let apiUrl="https://jsonplaceholder.typicode.com/users/";
+    
+  // axios.get(apiUrl).then(displayUsername);
+
+  //challenge
+  function displayComment(response) {
+  console.log(response.data.email);
+}
+let urlTwo = "https://jsonplaceholder.typicode.com/comments/1";
+axios.get(urlTwo).then(displayComment);
+
+  </script>
+</html>
